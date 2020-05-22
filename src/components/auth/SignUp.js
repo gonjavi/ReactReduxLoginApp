@@ -13,7 +13,7 @@ class SignUp extends Component {
     })
   }
   handleSubmit = (e) => {
-    // to prevent default action - when pressing enter or submit
+    // to prevent default action - when pressing enter or submit --
     e.preventDefault();
     console.log(this.state);
   }
