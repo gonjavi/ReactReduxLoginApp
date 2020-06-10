@@ -1,5 +1,5 @@
 const iniState = {
-  project: [
+  projects: [
     {id: '1', title: 'help me find peach', conent: 'contenido'},
     {id: '2', title: 'collect all the stars', conent: 'contenido'},
     {id: '3', title: 'egg hunt', conent: 'contenido'}
@@ -7,7 +7,7 @@ const iniState = {
 }
 
 const projectReducer = (state = iniState, action) => {
-  return state
+  return state;
 }
 
 export default projectReducer;
